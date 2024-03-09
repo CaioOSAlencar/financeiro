@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6f1c4e2-03e8-4924-aeef-33e6dd339e91" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/financimento.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ErpCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ErpComprasItens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ErpContasPagar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ErpCotacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ErpDestinacaoRecurso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ErpFormaPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ErpProdutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ErpStatusCompra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ErpContasPagarItens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ErpContasReceber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ErpLctoHistorico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ErpPessoaFornecedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ErpContasPagar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErpContasPagar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
