@@ -3,14 +3,15 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.*;
 
-public class ErpDestinacaoRecurso {
+
+public class ErpUnidadeMedida {
     private int id;
-    private  String nome;
+    private String nome;
     private String descricao;
-    private boolean ativo;
+    private  boolean ativo;
     private LocalDateTime data_lancamento;
 
-    public ErpDestinacaoRecurso(int id, String nome, String descricao, boolean ativo, LocalDateTime data_lancamento) {
+    public ErpUnidadeMedida(int id, String nome, String descricao, boolean ativo, LocalDateTime data_lancamento){
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;
@@ -22,39 +23,40 @@ public class ErpDestinacaoRecurso {
         return id;
     }
 
-    public String getNome() {
-        return nome;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getDescricao() {
         return descricao;
     }
 
-    public boolean isAtivo() {
-        return ativo;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
-    public LocalDateTime getData_lancamento() {
-        return data_lancamento;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+    public String getNome() {
+        return nome;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
+    public LocalDateTime getData_lancamento() {
+        return data_lancamento;
+    }
+
+    public void setData_lancamento(LocalDateTime data_lancamento) {
+        this.data_lancamento = data_lancamento;
+    }
+
+    public static boolean getAtivo() {
+        return getAtivo();
     }
 
     public void setAtivo(boolean ativo) {
         this.ativo = ativo;
     }
 
-    public void setData_lancamento(LocalDateTime data_lancamento) {
-        this.data_lancamento = data_lancamento;
-    }
 }

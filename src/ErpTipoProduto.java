@@ -3,14 +3,14 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.*;
 
-public class ErpDestinacaoRecurso {
+public class ErpTipoProduto {
     private int id;
     private  String nome;
-    private String descricao;
-    private boolean ativo;
+    private  String descricao;
+    private  boolean ativo;
     private LocalDateTime data_lancamento;
 
-    public ErpDestinacaoRecurso(int id, String nome, String descricao, boolean ativo, LocalDateTime data_lancamento) {
+    public ErpTipoProduto(int id, String nome, String descricao, boolean ativo, LocalDateTime data_lancamento){
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;

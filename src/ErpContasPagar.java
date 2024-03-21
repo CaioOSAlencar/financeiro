@@ -141,16 +141,20 @@ public class ErpContasPagar {
     public void setErp_pessoa_fornecedor_id(ErpPessoaFornecedor erp_pessoa_fornecedor_id) {
         this.erp_pessoa_fornecedor_id = erp_pessoa_fornecedor_id;
     }
-    public boolean getAtivo(){
+
+    public boolean isAtivo() {
         return ativo;
     }
-    public void  setAtivo(boolean ativo){
-        this.ativo;
-    }
-    public boolean getTransferido_tesouraria (){
+
+    public boolean isTransferido_tesouraria() {
         return transferido_tesouraria;
     }
-    public void  setTransferido_tesouraria (boolean transferido_tesouraria){
-        this.transferido_tesouraria;
+
+    public void setAtivo(boolean ativo) {
+        this.ativo = ativo;
+    }
+
+    public void setTransferido_tesouraria(boolean transferido_tesouraria) {
+        this.transferido_tesouraria = transferido_tesouraria;
     }
 }
